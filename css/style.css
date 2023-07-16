@@ -8,13 +8,16 @@ body{
     height: 100vh;
     width: 100vw;
     font-family: 'Lato', sans-serif;
+    background: rgba(223, 219, 219, 0.5);
+    backdrop-filter: blur(5px);
 }
 .fa-trash{
     color: #ed0c0c;
 }
 li{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: black;
     color: white;
     margin: 5px;
@@ -23,6 +26,15 @@ li{
     width: 65%;
     align-items: center;
 }
+.text-span{
+    margin-left: 2px;
+    flex: 5;
+}
+.btn-span{
+    margin-right: 0;
+    flex: .8;
+}
+
 h1{
     font-weight: 700;
 }
@@ -37,6 +49,10 @@ main{
 form{
     display: flex;
    
+}
+
+.btn-span i{
+    margin-left: 10px;
 }
 .todo-input{
     padding: 9px;
@@ -58,4 +74,17 @@ form{
     width: 80%;
     display: flex;
     flex-direction: column;
+}
+@media only screen and (max-width: 600px) and (min-width: 375px)  {
+    li{
+        width: 93%;
+        
+        flex-wrap: wrap;
+
+    }
+    .btn-span{
+        flex:2;
+        margin-right: -1rem;
+    }
+
 }

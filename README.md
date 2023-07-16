@@ -15,7 +15,7 @@ This is a simple Todo List application built using JavaScript, HTML, and CSS. It
 - Mark tasks as complete by clicking on the checkbox. <br>
 - Delete tasks by clicking on the delete icon. <br>
 - Filter tasks based on their status (all, active, completed).<br>
-- Clear all completed tasks with a single click.<br>
+- Update task by clicking update button.<br>
 - Data is stored locally in the browser's localStorage, so your tasks will persist even if you close the browser.
 
 
@@ -32,7 +32,7 @@ To run the Todo List app locally, follow these steps:<br>
 3. Alternatively you can visit (https://famba-to-do-app.netlify.app/)
 
 ## Screenshots
-Todo List App
+
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to submit a pull request.
