@@ -32,6 +32,7 @@ To run the Todo List app locally, follow these steps:<br>
 3. Alternatively you can visit (https://famba-to-do-app.netlify.app/)
 
 ## Screenshots
+![Screenshot from 2023-07-16 15-05-44](https://github.com/Famba-Abdulnassiir/to-do-app/assets/57795345/8b78ed7d-b1c2-46df-8d7b-2d6f220cad70)
 
 
 ## Contributing
